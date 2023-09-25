@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+<style>
+	* {
+		box-sizing: border-box;
+	}
+	[class*="col-"] {
+		width: 100%;
+		float: left;
+		padding: 15px;
+	}
+	@media only screen and (mid-width:599px) {
+		.col-s-3{width: 25%;}
+		.col-s-9{width: 75%;}
+		.col-s-12{width: 100%;}
+	}
+	.menu ul {
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+	}
+	.menu li {
+		padding: 8px;
+		margin-bottom: 7px;
+		background-color: green;
+		color: #ffffff;
+		box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 1px 2px rgba(0, 0, 0, 0.24);
+	}
+	.menu li:hover {
+		background-color: darkgreen;
+	}
+	.bottom-div {
+		background-color: green;
+		padding: 15px;
+		color: #ffffff;
+		text-align: center;
+		font-size: 14px;
+		box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12) 0 1px 2px rgba(0, 0, 0, 0.24);
+	}
+	
+</style>
+</head>
+
+<body>
+	<div class="row">
+		<div class="col-s-3 menu">
+			<ul>
+				<li>Dashboard</li>
+				<li>Course Offers</li>
+				<li>Academy</li>
+				<li>Contact US</li>
+			</ul>
+		</div>
+		<div class="col-6 col-s-9">
+			<h1>University of St. La Salle</h1>
+			<hr>
+			<p><b>The University Of St.La Salle(USLS) is a Catholic private research university run by the De La Salle Brothers, located in Lasalle Avenue, Bacolod, Negros Occidental, Philippines. Established in 1962 as Lasalle College Bacolod, it is the second oldest campus founded by the congregation in the country (first and oldest outside of manila)
+			</b></p>
+		</div>
+		<div class="col-s-3 col-s-12">
+			<div class= "bottom-div">
+				<h2>Mission</h2>
+				<p>Your mission text goes here</p>
+				<h2>Vision</h2>
+				<p>Your vision goes here</p>
+				<h2>Join Us </h2>
+				<p> If you find our community amazing join us by calling 999-999-999.</p>
+
+			</div>
+	</div>
+</body>
+</html>
